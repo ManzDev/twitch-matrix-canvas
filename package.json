@@ -1,0 +1,31 @@
+{
+  "name": "twitch-canvas",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "rm -rf dist && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@stylelint/postcss-css-in-js": "^0.37.2",
+    "eslint": "^8.11.0",
+    "eslint-config-standard": "17.0.0-1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-n": "14.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.4.12",
+    "postcss-html": "^1.3.0",
+    "postcss-jsx": "^0.36.4",
+    "postcss-nesting": "^10.1.3",
+    "postcss-styled": "^0.34.0",
+    "postcss-syntax": "^0.36.2",
+    "stylelint": "^14.6.0",
+    "stylelint-config-standard": "^25.0.0",
+    "vite": "^2.8.0"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
