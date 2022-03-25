@@ -19,6 +19,12 @@ const glitch = new Howl({
   loop: false
 });
 
+const text = new URL(location.href).searchParams.get("text");
+
+if (text) {
+  document.querySelector(".manz div").textContent = text;
+}
+
 let font = "monospace";
 
 const toggleFont = () => {
