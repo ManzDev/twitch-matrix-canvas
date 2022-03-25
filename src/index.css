@@ -19,7 +19,7 @@ body {
 }
 
 .manz img {
-  transform: scale(3);
+  transform: scale(1);
   image-rendering: pixelated;
   clip-path: inset(5%);
 }
@@ -36,9 +36,10 @@ body {
   box-shadow: 0 0 10px 4px #0f0;
 }
 
-.manz span {
+.manz a {
   color: #0f0;
   text-shadow: 0 0 35px #0f0;
+  text-decoration: none;
 }
 
 .moved {

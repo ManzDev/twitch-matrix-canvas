@@ -27,5 +27,8 @@
     "vite": "^2.8.0"
   },
   "keywords": [],
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "howler": "^2.2.3"
+  }
 }
